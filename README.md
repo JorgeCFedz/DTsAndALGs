@@ -125,7 +125,7 @@ Separation of concerns facilitates the integration of multiple views.
 ### Future Updates
  - **Concurrent classes**
  - **New panel** 
-    - Graphics benchmark visualizer. Runtime visualization of benchmark operations. [Visualgo](https://visualgo.net/en)
+    - Graphics benchmark visualizer. Runtime visualization of benchmark operations. See [Visualgo](https://visualgo.net/en) example.
  - **Results panel morphs into full editor**
     - Compile and execute code with compile warnings and errors. Runtime errors stacktrace.
  - **Cross platform**
