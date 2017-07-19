@@ -1,5 +1,10 @@
 package Models.DTs;
 
-public class MySimpleLinkedList {
-    // placeholder class
+class MySimpleLinkedList {
+    Node head;
+
+    class Node {
+        int value;
+        Node next;
+    }
 }
