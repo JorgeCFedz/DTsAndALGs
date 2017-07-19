@@ -70,7 +70,7 @@ Separation of concerns facilitates the integration of multiple views.
 |![JUnit tests](src/Images/Tests.png)|
 
 ### Dependencies  
-> - DTsAndALGs requires JDK 1.8 or later to build starting with version 1.0.0.
+> - DTsAndALGs requires JDK 1.8 or later to build starting with version 1.0.0.  
 [JUnit](http://junit.org) JUnit is a unit testing framework. You need JUnit only if you want to run the unit tests. JUnit is licensed under the terms of the IBM Common Public License. The JUnit tests included with JGraphT have been created using JUnit 4.12.  
 [RSyntaxTextArea](https://github.com/bobbylight/RSyntaxTextArea) RSyntaxTextArea is a customizable, syntax highlighting text component for Java Swing applications. RSyntaxTextArea is available under a modified BSD license. The RSyntaxTextArea used in this project corresponds to release 3.0.  
 
