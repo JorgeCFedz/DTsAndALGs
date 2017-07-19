@@ -16,8 +16,7 @@ Tool to visualize and run benchmarks on different data structures and algorithms
 DTsAndALGs helps developers visualize the code for common data structures and algorithms, and run benchmarks using them.
 DTsAndALGs uses a simple and intuitive UI to quickly review on the spot. 
 
-* Run multiple benchmarks at the same time.
-* Compare results among related benchmarks.
+* Run multiple benchmarks at the same time and compare results.
 * Quickly visualize and refresh algorithms and data structures code.
 * Review simpler implementations or explore real implementations following java API guidelines.
 * Avoid the hassles of surfing the web for hours seeking to refresh your basic knowledge of programming fundamentals.
