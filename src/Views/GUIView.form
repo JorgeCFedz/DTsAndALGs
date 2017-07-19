@@ -56,22 +56,6 @@
                           <text value="Linked List"/>
                         </properties>
                       </component>
-                      <component id="3d32e" class="javax.swing.JRadioButton" binding="radioButtonStack">
-                        <constraints>
-                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                        </constraints>
-                        <properties>
-                          <text value="Stack"/>
-                        </properties>
-                      </component>
-                      <component id="b40e6" class="javax.swing.JRadioButton" binding="radioButtonQueue">
-                        <constraints>
-                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                        </constraints>
-                        <properties>
-                          <text value="Queue"/>
-                        </properties>
-                      </component>
                       <component id="42a9f" class="javax.swing.JRadioButton" binding="radioButtonHashTable">
                         <constraints>
                           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
@@ -88,28 +72,44 @@
                           <text value="Graph"/>
                         </properties>
                       </component>
-                      <component id="bba3" class="javax.swing.JRadioButton" default-binding="true">
-                        <constraints>
-                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                        </constraints>
-                        <properties>
-                          <text value="RadioButton"/>
-                        </properties>
-                      </component>
                       <component id="2d6f5" class="javax.swing.JRadioButton">
                         <constraints>
                           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                         </constraints>
                         <properties>
-                          <text value="RadioButton btn"/>
+                          <text value="Radiobutton.."/>
+                        </properties>
+                      </component>
+                      <component id="3d32e" class="javax.swing.JRadioButton" binding="radioButtonStack">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Stack"/>
+                        </properties>
+                      </component>
+                      <component id="b40e6" class="javax.swing.JRadioButton" binding="radioButtonQueue">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Queue"/>
                         </properties>
                       </component>
                       <component id="e12f3" class="javax.swing.JRadioButton" default-binding="true">
                         <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Radiobutton.."/>
+                        </properties>
+                      </component>
+                      <component id="bba3" class="javax.swing.JRadioButton" binding="radioButtonSimpleLinkedList">
+                        <constraints>
                           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                         </constraints>
                         <properties>
-                          <text value="RadioButton"/>
+                          <text value="Linked List (simple)"/>
                         </properties>
                       </component>
                     </children>
@@ -336,104 +336,77 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="91ef7" class="javax.swing.JRadioButton" binding="radioButtonLinearSearchBenchmark">
+                  <component id="14ab5" class="javax.swing.JCheckBox" binding="radioButtonLinearSearchBenchmark">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
                       <text value="Linear Search"/>
                     </properties>
-                    <clientProperties>
-                      <hideActionText class="java.lang.Boolean" value="true"/>
-                    </clientProperties>
                   </component>
-                  <component id="3df70" class="javax.swing.JRadioButton" binding="radioButtonBinarySearchBenchmark">
+                  <component id="6f116" class="javax.swing.JCheckBox" binding="radioButtonBinarySearchBenchmark">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
                       <text value="Binary Search"/>
                     </properties>
-                    <clientProperties>
-                      <hideActionText class="java.lang.Boolean" value="true"/>
-                    </clientProperties>
                   </component>
-                  <component id="794c2" class="javax.swing.JRadioButton" binding="radioButtonBubbleSortBenchmark">
+                  <component id="9dac7" class="javax.swing.JCheckBox" binding="radioButtonBubbleSortBenchmark">
                     <constraints>
                       <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
                       <text value="Bubble Sort"/>
                     </properties>
-                    <clientProperties>
-                      <hideActionText class="java.lang.Boolean" value="true"/>
-                    </clientProperties>
                   </component>
-                  <component id="96986" class="javax.swing.JRadioButton" binding="radioButtonInsertionSortBenchmark">
+                  <component id="414a1" class="javax.swing.JCheckBox" binding="radioButtonInsertionSortBenchmark">
                     <constraints>
                       <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
                       <text value="Insertion Sort"/>
                     </properties>
-                    <clientProperties>
-                      <hideActionText class="java.lang.Boolean" value="true"/>
-                    </clientProperties>
                   </component>
-                  <component id="642a5" class="javax.swing.JRadioButton" binding="radioButtonSelectionSortBenchmark">
+                  <component id="6ed32" class="javax.swing.JCheckBox" binding="radioButtonSelectionSortBenchmark">
                     <constraints>
                       <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
                       <text value="Selection Sort"/>
                     </properties>
-                    <clientProperties>
-                      <hideActionText class="java.lang.Boolean" value="true"/>
-                    </clientProperties>
                   </component>
-                  <component id="bf934" class="javax.swing.JRadioButton" binding="radioButtonQuickSortBenchmark">
+                  <component id="6a9fe" class="javax.swing.JCheckBox" binding="radioButtonQuickSortBenchmark">
                     <constraints>
                       <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
                       <text value="Quick Sort"/>
                     </properties>
-                    <clientProperties>
-                      <hideActionText class="java.lang.Boolean" value="true"/>
-                    </clientProperties>
                   </component>
-                  <component id="d5451" class="javax.swing.JRadioButton" binding="radioButtonMergeSortBenchmark">
+                  <component id="b0ea2" class="javax.swing.JCheckBox" binding="radioButtonMergeSortBenchmark">
                     <constraints>
                       <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
                       <text value="Merge Sort"/>
                     </properties>
-                    <clientProperties>
-                      <hideActionText class="java.lang.Boolean" value="true"/>
-                    </clientProperties>
                   </component>
-                  <component id="e0f2c" class="javax.swing.JRadioButton" binding="radioButtonMergeInPlaceBenchmark">
+                  <component id="b2b69" class="javax.swing.JCheckBox" binding="radioButtonMergeInPlaceBenchmark">
                     <constraints>
                       <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
                       <text value="Merge (in-place)"/>
                     </properties>
-                    <clientProperties>
-                      <hideActionText class="java.lang.Boolean" value="true"/>
-                    </clientProperties>
                   </component>
-                  <component id="5ecb8" class="javax.swing.JRadioButton" binding="radioButtonShellSortBenchmark">
+                  <component id="445fb" class="javax.swing.JCheckBox" binding="radioButtonShellSortBenchmark">
                     <constraints>
                       <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
                       <text value="Shell Sort"/>
                     </properties>
-                    <clientProperties>
-                      <hideActionText class="java.lang.Boolean" value="true"/>
-                    </clientProperties>
                   </component>
                 </children>
               </grid>
@@ -543,6 +516,7 @@
       <member id="4f0d"/>
       <member id="315ba"/>
       <member id="8307d"/>
+      <member id="92082"/>
     </group>
   </buttonGroups>
 </form>

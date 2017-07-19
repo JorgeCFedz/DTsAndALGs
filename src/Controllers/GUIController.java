@@ -82,13 +82,14 @@ public class GUIController implements ActionListener, ItemListener, MouseListene
      */
     @Override
     public void mouseReleased(MouseEvent e) {
-        JRadioButton btn = (JRadioButton) e.getSource();
-        String text = btn.getText();
-        if (isBenchmarkerButton(btn)) {
+        if(isBenchmarkerButton(e)) {
             // Benchmarker buttons
+            JCheckBox btn = (JCheckBox) e.getSource();
+            String text = btn.getText();
             model.addBenchmarkButtonSelected(text);
         } else {
-            // Visualizer buttons
+            JRadioButton btn = (JRadioButton) e.getSource();
+            String text = btn.getText();
             model.setVisualizerButtonSelected(text);
             String fileName = model.getFileName(text);
             if (isAlgorithm(fileName)) {
@@ -98,6 +99,26 @@ public class GUIController implements ActionListener, ItemListener, MouseListene
             }
             guiView.updateVisualizerResults(model.getVisualizerText());
         }
+//        JRadioButton btn = (JRadioButton) e.getSource();
+//        String text = btn.getText();
+//        if (isBenchmarkerButton(btn)) {
+//            // Benchmarker buttons
+//            model.addBenchmarkButtonSelected(text);
+//        } else {
+//            // Visualizer buttons
+//            model.setVisualizerButtonSelected(text);
+//            String fileName = model.getFileName(text);
+//            if (isAlgorithm(fileName)) {
+//                controller.visualizeAlgorithm(model.getVisualizerButtonSelected());
+//            } else {
+//                controller.visualizeDataStructure(model.getVisualizerButtonSelected());
+//            }
+//            guiView.updateVisualizerResults(model.getVisualizerText());
+//        }
+    }
+
+    private boolean isBenchmarkerButton(MouseEvent e) {
+        return e.getComponent().getClass().equals(JCheckBox.class);
     }
 
     ///////////////////////////////////////////////////////////////////////////////////////

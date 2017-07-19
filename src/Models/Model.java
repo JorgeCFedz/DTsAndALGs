@@ -118,7 +118,8 @@ public class Model {
         if (fileNames == null) {
             fileNames = new HashMap<>();
         }
-        fileNames.put("Linked List", "MySimpleLinkedList");
+        fileNames.put("Linked List (simple)", "MySimpleLinkedList");
+        fileNames.put("Linked List", "MyLinkedList");
         fileNames.put("Stack", "MyStack");
         fileNames.put("Queue", "MyArrayDeque");
         fileNames.put("Graph", "MyGraph");

@@ -221,6 +221,7 @@ public class ConsoleView {
             System.out.println("3. Type 3 to inspect Queue");
             System.out.println("4. Type 4 to inspect HashTable");
             System.out.println("5. Type 5 to inspect Graph");
+            System.out.println("6. Type 6 to inspect Linked List (Simple)");
 
             dataStructure = consoleScanner.next();
             Boolean valid = true;
@@ -244,6 +245,10 @@ public class ConsoleView {
                 case "5":
                     System.out.println("Selected data structure \"Graph\"...");
                     controller.visualizeDataStructure("Graph");
+                    break;
+                case "6":
+                    System.out.println("Selected data structure \"Linked List (simple)\"...");
+                    controller.visualizeDataStructure("Linked List (simple)");
                     break;
                 case "0":
                     valid = false;
@@ -275,7 +280,7 @@ public class ConsoleView {
             System.out.println("5. Type 5 to inspect selection sort");
             System.out.println("6. Type 6 to inspect shell sort");
             System.out.println("7. Type 7 to inspect merge sort");
-            System.out.println("8. Type 8 to inspect in-place merge sort");
+            System.out.println("8. Type 8 to inspect merge sort (in-place)");
             System.out.println("9. Type 9 to inspect quick sort");
 
             algorithm = consoleScanner.next();

@@ -60,17 +60,18 @@ public class GUIView extends JPanel {
     private JLabel rightTopPanelLabel;
     // Right Panel: Benchmarker buttons section
     private JPanel benchMarkOptionsPanel;
-    private JRadioButton radioButtonLinearSearchBenchmark;
-    private JRadioButton radioButtonBinarySearchBenchmark;
-    private JRadioButton radioButtonBubbleSortBenchmark;
-    private JRadioButton radioButtonInsertionSortBenchmark;
-    private JRadioButton radioButtonSelectionSortBenchmark;
-    private JRadioButton radioButtonQuickSortBenchmark;
-    private JRadioButton radioButtonMergeSortBenchmark;
-    private JRadioButton radioButtonMergeInPlaceBenchmark;
+    private JCheckBox radioButtonLinearSearchBenchmark;
+    private JCheckBox radioButtonBinarySearchBenchmark;
+    private JCheckBox radioButtonBubbleSortBenchmark;
+    private JCheckBox radioButtonInsertionSortBenchmark;
+    private JCheckBox radioButtonSelectionSortBenchmark;
+    private JCheckBox radioButtonQuickSortBenchmark;
+    private JCheckBox radioButtonMergeSortBenchmark;
+    private JCheckBox radioButtonMergeInPlaceBenchmark;
     private JRadioButton radioButtonShellSort;
-    private JRadioButton radioButtonShellSortBenchmark;
+    private JCheckBox radioButtonShellSortBenchmark;
     private JButton runBenchmark;
+    private JRadioButton radioButtonSimpleLinkedList;
 
 
     public GUIView(Model model) {
@@ -131,6 +132,7 @@ public class GUIView extends JPanel {
         radioButtonQueue.addMouseListener(guiController);
         radioButtonGraph.addMouseListener(guiController);
         radioButtonHashTable.addMouseListener(guiController);
+        radioButtonSimpleLinkedList.addMouseListener(guiController);
 
         // Visualizer ComboBox card2 buttons
         radioButtonLinearSearch.addMouseListener(guiController);

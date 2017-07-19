@@ -150,7 +150,6 @@ public class Controller {
         String dirPath = getCurrDirPath() + objectPath;
         String filePath = getFilePath(dirPath, objectName);
 //        String filePath = getFilePath("files\\", objectName);                                                         // only used for jar distributions
-
         String visualizerPanelText = inspectFile(filePath);
         model.setVisualizerText(visualizerPanelText);
     }
@@ -172,7 +171,6 @@ public class Controller {
             temp.delete();
         }
         String dirPath = tempFilePath.substring(0, tempFilePath.lastIndexOf(File.separator));
-        System.out.println(dirPath);
         return dirPath;
     }
 
