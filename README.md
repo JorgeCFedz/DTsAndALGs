@@ -102,7 +102,7 @@ Separation of concerns facilitates the integration of multiple views.
     - New database of readable files containing the code for each individual algorithm and data structure. 
     - Algorithms visualizer now properly displays the isolated code for the selected algorithm instead of the whole algorithms static class. 
  - **Fixed benchmarker execution order**
-    - Algorithms benchmarks now properly display in the results section grouped by logic order.
+    - Algorithms benchmarks grouped and displayed by logical order in in the results section.
  - **Expanded functionality**
     - Benchmarker for common data structures operations (add, remove, access, search, sort)
     - Benchmarker analysis of runtime complexity
